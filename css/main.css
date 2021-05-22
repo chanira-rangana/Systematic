@@ -128,3 +128,34 @@ nav ul li a{
 nav ul li a:hover {
     color: red;
 }
+
+.intro {
+    width: 970px;
+    margin: 15px;
+}
+
+.intro .introimg {
+    float: left;
+    width: 400px;
+}
+
+.intro .introtext {
+    float: right;
+    width: 570px;
+}
+
+.intro .introtext h1 {
+    margin-top: 100px;
+    font-size: 72px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.intro .introtext a {
+    text-transform: uppercase;
+    color: red;
+    float: right;
+}
+.intro .introtext p {
+    font-size: 18px;
+}
