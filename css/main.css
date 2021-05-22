@@ -64,3 +64,41 @@ a {
     height: 18px;
     float: right;
 }
+
+header {
+    margin: 30px 20px;
+}
+
+header .logo {
+    float: left;
+}
+
+header .logo h1  {
+    font-size: 36px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    font-variant: small-caps    ;
+}
+
+header .social-media {
+    float: right;
+}
+header .social-media ul {
+    list-style: none;
+    margin: 20px;
+}
+header .social-media ul li {
+    font-size: 20px;
+    margin: 0 3px;
+    display: inline-block;
+}
+header .social-media ul li a {
+    padding: 8px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+
+header .social-media ul li a:hover {
+    background-color: orange;
+}
