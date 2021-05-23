@@ -6,6 +6,13 @@
 
 a {
     text-decoration: none;
+    color: red;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
 }
 
 .clearfix {
@@ -153,9 +160,27 @@ nav ul li a:hover {
 
 .intro .introtext a {
     text-transform: uppercase;
-    color: red;
     float: right;
 }
 .intro .introtext p {
     font-size: 18px;
+}
+
+.homecontent {
+    width: 1000px;
+    background: #eee;
+}
+
+.homecontent .home-col {
+    display: inline-block;
+    margin-left: 15px;
+    width: 313.33px;
+    float: left;
+}
+
+.homecontent .home-col h2{
+    text-align: center;
+    margin: 30px 15px 30px 0;
+    font-weight: normal;
+    font-size: 28px;
 }
